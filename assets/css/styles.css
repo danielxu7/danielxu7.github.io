@@ -1,0 +1,21 @@
+h1 {
+    margin: 0 auto;
+    color: #fff;
+}
+
+#intro {
+    background: #000 url("../img/background.jpg") no-repeat bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+#intro div {
+    position: relative;
+    top: 40%;
+    width: 100%;
+}
+
+#name {
+    text-align: center;
+    font-size: 8vh;
+}
