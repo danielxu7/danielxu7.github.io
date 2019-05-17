@@ -1,5 +1,9 @@
-h1 {
-    margin: 0 auto;
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
     color: #fff;
 }
 
@@ -16,6 +20,26 @@ h1 {
 }
 
 #name {
-    text-align: center;
     font-size: 8vh;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about {
+    background-color: #121335;
+    /* background-color: #252627; */
+}
+
+#skills {
+    background-color: #fff;
+
+}
+
+#projects {
+    background-color: #121335;
+}
+
+.p-dark {
+    color: #000;
 }
