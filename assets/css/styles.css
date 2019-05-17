@@ -1,10 +1,14 @@
-h2 {
-    text-align: center;
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff;
 }
 
-p {
-    color: #fff;
+h2 {
+    text-align: center;
+}
+
+a, a:hover {
+    color: #3ba4d6;
 }
 
 #intro {
@@ -26,14 +30,17 @@ p {
     text-align: center;
 }
 
+/* 
+#3F3B92
+4f4d86 
+2b296d*/
+
 #about {
     background-color: #121335;
-    /* background-color: #252627; */
 }
 
 #skills {
-    background-color: #fff;
-
+    background-color: #2b296d;
 }
 
 #projects {
@@ -42,4 +49,63 @@ p {
 
 .p-dark {
     color: #000;
+}
+
+.container {
+    padding: 20px 15px;
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
+.skills-list li {
+    display: inline-block;
+}
+
+.skills-list li span {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.languages li span {
+    border: 1px solid #4fadda;    
+    background-color: #3ba4d6;
+}
+
+.languages li span:hover {
+    background-color: #297396;
+}
+
+.frameworks li span {
+    border: 1px solid #4fadda;    
+    background-color: #3ba4d6;
+}
+
+.frameworks li span:hover {
+    background-color: #297396;
+}
+
+.skills-type {
+    padding: 10px;
+}
+
+.row-spacing {
+    padding: 30px 0;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+    font-size: 2em;
+    padding-right: 5px;
+}
+
+.link:hover {
+    color: #eee;
+    text-decoration: none;
+    opacity: 0.5;
 }
