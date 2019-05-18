@@ -59,12 +59,16 @@ ul {
     background-image: linear-gradient(43deg, #070725 0%, #29136b 46%, #0f0510 100%);
 }
 
-.p-dark {
-    color: #000;
-}
-
 .container {
     padding: 20px 15px;
+}
+
+.row-spacing {
+    padding: 30px 0;
+}
+
+.profile {
+    padding: 10px 0 30px 0;
 }
 
 .skills-list {
@@ -91,10 +95,6 @@ ul {
 
 .skills-type {
     padding: 10px 0;
-}
-
-.row-spacing {
-    padding: 30px 0;
 }
 
 .link {
@@ -126,6 +126,11 @@ ul {
 
 .card-footer {
     padding-top: 0;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
 }
 
 /* Animations */
