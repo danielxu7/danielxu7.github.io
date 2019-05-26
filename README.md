@@ -1,2 +1,2 @@
-# danielxu7.github.io
+# https://www.daniel-xu.com/
 My personal website.
