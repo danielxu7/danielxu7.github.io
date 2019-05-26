@@ -156,7 +156,7 @@ class Projects extends React.Component {
                         <div className="card col-md-4">
                             <div className="card-body">
                                 <h5 className="card-title">Ratings Project</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel"
+                                <div className="carousel slide" data-ride="carousel"
                                     data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
@@ -173,7 +173,7 @@ class Projects extends React.Component {
                         <div className="card col-md-4">
                             <div className="card-body">
                                 <h5 className="card-title">Website</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
+                                <div className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <img className="d-block w-100" src={"assets/img/website-home.jpg"} alt="First slide" />
@@ -192,7 +192,7 @@ class Projects extends React.Component {
                         <div className="card col-md-4">
                             <div className="card-body">
                                 <h5 className="card-title">GryphTech Website</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
+                                <div className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <img className="d-block w-100" src={"assets/img/gryphtech-home.jpg"} alt="First slide" />
@@ -213,7 +213,7 @@ class Projects extends React.Component {
                         <div className="card col-md-6">
                             <div className="card-body">
                                 <h5 className="card-title">Crypto Collective</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
+                                <div className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <img className="d-block w-100" src={"assets/img/crypto-about.jpg"} alt="First slide" />
@@ -229,7 +229,7 @@ class Projects extends React.Component {
                         <div className="card col-md-6">
                             <div className="card-body">
                                 <h5 className="card-title">Hearts</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
+                                <div className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <img className="d-block w-100" src={"assets/img/hearts.jpg"} alt="First slide" />
