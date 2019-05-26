@@ -91,6 +91,7 @@ ul {
     background-color: #3ba4d6;
     display: block;
     margin-bottom: 10px;
+    margin-right: 5px;
 }
 
 .skills-list li span:hover {
@@ -106,7 +107,7 @@ ul {
     text-decoration: none;
     opacity: 1;
     font-size: 2em;
-    padding-right: 5px;
+    margin-right: 10px;
 }
 
 .link:hover {

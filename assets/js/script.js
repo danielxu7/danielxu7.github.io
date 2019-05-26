@@ -32,18 +32,13 @@ class About extends React.Component {
                     <h2>About me</h2>
                     <div className="row profile">
                         <div className="col-md-3">
-                            {/* <img src={require("./assets/img/headshot.jpg")} /> */}
-                            {/* <img src={test}/> */}
-                            {/* <img className="img-responsiive img-fluid rounded-circle" src={require("./assets/img/headshot.jpg")} /> */}
-                            {/* <img className="img-responsive img-fluid rounded-circle" src={require("./assets/img/headshot.jpg")}
-                                height="30px" alt="profile picture"/> */}
+                            <img className="img-responsive img-fluid rounded-circle" src={"assets/img/headshot.jpg"} alt="profile picture" />
                         </div>
                         <div className="col-md-9 vertical-center">
                             <div className="profile-description">
                                 <p>
-                                    I am a second-year student studying Computer Science at the
-                                <a aria-label="University of Waterloo" href="https://cs.uwaterloo.ca/"
-                                        target="_blank">University of Waterloo</a>.
+                                    I am a second-year student studying Computer Science at the&nbsp;
+                                <a aria-label="University of Waterloo" href="https://cs.uwaterloo.ca/" target="_blank">University of Waterloo</a>.
                             </p>
                                 <p>
                                     I'm interested in the future of development and technology. I love learning tools and
@@ -52,14 +47,12 @@ class About extends React.Component {
                                     understanding of UI/UX.
                             </p>
                                 <p>
-                                    My previous positions include .NET Developer at
-                                <a aria-label="Phoenix Software Inc." href="https://www.phoenixsoftware.ca/"
-                                        target="_blank" rel="noopener">Phoenix Software Inc.</a> and Web Designer at
-                                <a aria-label="GryphTech Inc." href="http://www.gryphtech.com/" target="_blank"
-                                        rel="noopener">GryphTech Inc.</a>
+                                    My previous positions include .NET Developer at&nbsp;
+                                    <a aria-label="Phoenix Software Inc." href="https://www.phoenixsoftware.ca/" target="_blank" rel="noopener">Phoenix Software Inc.</a>
+                                    &nbsp;and Web Designer at&nbsp;
+                                    <a aria-label="GryphTech Inc." href="http://www.gryphtech.com/" target="_blank" rel="noopener">GryphTech Inc.</a>
                                 </p>
-                                <a target="_blank" href="https://www.linkedin.com/in/danielxu7/"
-                                    className="fab fa-linkedin-in link"></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/danielxu7/" className="fab fa-linkedin-in link"></a>
                                 <a target="_blank" href="https://www.github.com/danielxu7/" className="fab fa-github link"></a>
                                 <a target="_blank" href="mailto:d68xu@edu.uwaterloo.ca" className="fas fa-envelope link"></a>
                                 <a target="_blank" href="resume.pdf" className="far fa-file-alt link"></a>
@@ -143,11 +136,8 @@ class Skills extends React.Component {
                     </div>
                     <div className="row row-spacing">
                         <div className="offset-md-1 col-md-11">
-                            <p>In the past two years, I've accumulated a strong set of skills through various projects and
-                                work
-                                experiences. I'm constantly learning languages, frameworks and technologies to keep up with
-                                the
-                            latest stack.</p>
+                            <p>In the past two years, I've accumulated a strong set of skills through various projects and work experiences.
+                                I'm constantly learning languages, frameworks and technologies to keep up with the latest stack.</p>
                         </div>
                     </div>
                 </div>
@@ -170,10 +160,10 @@ class Projects extends React.Component {
                                     data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            {/* <img className="d-block w-100" src="assets/img/rating.jpg" alt="First slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/rating.jpg"} alt="First slide" />
                                         </div>
                                         <div className="carousel-item">
-                                            {/* <img className="d-block w-100" src="assets/img/rating-popup.jpg" alt="Second slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/rating-popup.jpg"} alt="Second slide" />
                                         </div>
                                     </div>
                                 </div>
@@ -183,43 +173,36 @@ class Projects extends React.Component {
                         <div className="card col-md-4">
                             <div className="card-body">
                                 <h5 className="card-title">Website</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel"
-                                    data-interval="3000">
+                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            {/* <img className="d-block w-100" src="assets/img/website-home.jpg" alt="First slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/website-home.jpg"} alt="First slide" />
                                         </div>
                                         <div className="carousel-item">
-                                            {/* <img className="d-block w-100" src="assets/img/website-about.jpg"
-                                            alt="Second slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/website-about.jpg"} alt="Second slide" />
                                         </div>
                                     </div>
                                 </div>
                                 <p className="card-text">My personal website showcasing my skills and projects.</p>
                             </div>
                             <div className="card-footer">
-                                <a target="_blank" href="https://github.com/danielxu7/danielxu7.github.io"
-                                    className="fab fa-github link"></a>
+                                <a target="_blank" href="https://github.com/danielxu7/danielxu7.github.io" className="fab fa-github link"></a>
                             </div>
                         </div>
                         <div className="card col-md-4">
                             <div className="card-body">
                                 <h5 className="card-title">GryphTech Website</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel"
-                                    data-interval="3000">
+                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            {/* <img className="d-block w-100" src="assets/img/gryphtech-home.jpg"
-                                            alt="First slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/gryphtech-home.jpg"} alt="First slide" />
                                         </div>
                                         <div className="carousel-item">
-                                            {/* <img className="d-block w-100" src="assets/img/gryphtech-contact.jpg"
-                                            alt="Second slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/gryphtech-contact.jpg"} alt="Second slide" />
                                         </div>
                                     </div>
                                 </div>
-                                <p className="card-text">A responsive and mobile friendly website with a focus on UI/UX for
-                                GryphTech Inc.</p>
+                                <p className="card-text">A responsive and mobile friendly website with a focus on UI/UX for GryphTech Inc.</p>
                             </div>
                             <div className="card-footer">
                                 <a target="_blank" href="http://gryphtech.com/" className="fas fa-globe-americas link"></a>
@@ -230,31 +213,26 @@ class Projects extends React.Component {
                         <div className="card col-md-6">
                             <div className="card-body">
                                 <h5 className="card-title">Crypto Collective</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel"
-                                    data-interval="3000">
+                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            {/* <img className="d-block w-100" src="assets/img/crypto-about.jpg" alt="First slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/crypto-about.jpg"} alt="First slide" />
                                         </div>
                                     </div>
                                 </div>
-                                <p className="card-text">Web application predicting cryptocurrency trends based on live tweets
-                                    on
-                                Twitter.</p>
+                                <p className="card-text">Web application predicting cryptocurrency trends based on live tweets on Twitter.</p>
                             </div>
                             <div className="card-footer">
-                                <a target="_blank" href="https://github.com/danielxu7/CryptoCollective"
-                                    className="fab fa-github link"></a>
+                                <a target="_blank" href="https://github.com/danielxu7/CryptoCollective" className="fab fa-github link"></a>
                             </div>
                         </div>
                         <div className="card col-md-6">
                             <div className="card-body">
                                 <h5 className="card-title">Hearts</h5>
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel"
-                                    data-interval="3000">
+                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            {/* <img className="d-block w-100" src="assets/img/hearts.jpg" alt="First slide"> */}
+                                            <img className="d-block w-100" src={"assets/img/hearts.jpg"} alt="First slide" />
                                         </div>
                                     </div>
                                 </div>
@@ -262,8 +240,7 @@ class Projects extends React.Component {
                                 Hearts, featuring strong NPCs and relaxing visuals.</p>
                             </div>
                             <div className="card-footer">
-                                <a target="_blank" href="https://github.com/danielxu7/CryptoCollective"
-                                    className="fab fa-github link"></a>
+                                <a target="_blank" href="https://github.com/danielxu7/CryptoCollective" className="fab fa-github link"></a>
                             </div>
                         </div>
                     </div>
