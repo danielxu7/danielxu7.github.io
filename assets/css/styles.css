@@ -31,7 +31,7 @@ ul {
     animation: fadein 2s;
 }
 
-#intro div {
+.title-container {
     position: relative;
     top: 40%;
     width: 100%;
