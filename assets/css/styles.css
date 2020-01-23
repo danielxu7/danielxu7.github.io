@@ -31,7 +31,7 @@ ul {
     animation: fadein 2s;
 }
 
-.title-container {
+#intro div {
     position: relative;
     top: 40%;
     width: 100%;
@@ -91,7 +91,6 @@ ul {
     background-color: #3ba4d6;
     display: block;
     margin-bottom: 10px;
-    margin-right: 5px;
 }
 
 .skills-list li span:hover {
@@ -107,7 +106,7 @@ ul {
     text-decoration: none;
     opacity: 1;
     font-size: 2em;
-    margin-right: 10px;
+    padding-right: 5px;
 }
 
 .link:hover {
