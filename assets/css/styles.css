@@ -86,11 +86,11 @@ ul {
 .skills-list li span {
     color: #fff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 15px;;
     border: 1px solid #4fadda;
     background-color: #3ba4d6;
     display: block;
-    margin-bottom: 10px;
+    margin: 0 5px 10px 0;
 }
 
 .skills-list li span:hover {
@@ -106,7 +106,7 @@ ul {
     text-decoration: none;
     opacity: 1;
     font-size: 2em;
-    padding-right: 5px;
+    margin-right: 10px;
 }
 
 .link:hover {
@@ -193,7 +193,6 @@ ul {
 }
 
 /* Media queries */
-
 @media only screen and (min-width: 768px) {
     .profile-description {
         margin: 0;
